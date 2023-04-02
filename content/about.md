@@ -4,6 +4,10 @@ path = "about"
 template = "blog-page.html"
 +++
 
-Hello, my name is Francesco, aka Bale, and this is my website. I am an Italian software professional living in Finland.
+I am an Italian software professional living in Finland. Yes, you read it right. 
 
 Sometimes I think about stuff and I feel the urge to write it down. This helps me structure my thoughts and remember what I have done. To give myself the motivation to finish what I start writing, I created this website.
+
+The theme of this site is loosely inspired by the ZX Spectrum, my first computer and true love.
+
+Site made with Zola, Spectrum font by... CSS by ChatGPT

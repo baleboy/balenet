@@ -2,6 +2,7 @@
 
 {% block content %}
       <h2>{{ section.title }}</h2>
+      <p>{{ section.description }}</p>
       <div class="card-container work">
         {% for page in section.pages %}
         <a href="{{ page.permalink | safe }}">
