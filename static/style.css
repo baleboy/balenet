@@ -34,13 +34,16 @@ body {
   }
   
   .social-icons {
-    float: right;
     display: flex;
+    align-items: center;
+    margin-right: 20px;
+    align-self: flex-start;
   }
   
   .social-icons a {
-    color: #80ff80;
+    color: #fff;
     margin-left: 10px;
+    font-size: 1.2em;
   }
   
   .social-icons a:hover {
