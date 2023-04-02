@@ -1,7 +1,7 @@
 +++
-title = "Linux driver for Intel's discrete GPUs, 2018-2020"
-description = "Still waiting for the product" 
-weight = 1
+title = "Linux driver for Intel GPUs, 2018-2020"
+description = "Open source development of Linux driver for Intel's integrated and discrete GPU" 
+weight = 7
 
 [extra]
 header_image = "work/intel-xe.jpg"

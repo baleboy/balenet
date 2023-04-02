@@ -1,10 +1,10 @@
 +++
 title = "Push-to-talk over cellular, 2002-2004"
 description = "VoIP service before the internet"
-weight = 1
+weight = 2
 
 [extra]
-header_image = "https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1465&q=80"
+header_image = "work/nokia-5140.jpeg"
 +++
 
 Push-to-talk over Cellular, or PoC as it was commonly known, was a Voice-over-IP service that replicated the functionality of two-way radio communication (in other words walkie-talkies) on regular, internet-enabled mobile phones. It was developed by Nokia's Professional Mobile Radio (PMR) division as an evolution of its reasonably successful TETRA handhelds and network (https://en.wikipedia.org/wiki/Professional_mobile_radio) and meant for both professionals and consumers. An often flaunted use case was "a group of friends skiing together and keeping in touch via one-to-many group communication".

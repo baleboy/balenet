@@ -1,7 +1,7 @@
 +++
 title = "Crosswalk Project, 2013-2017"
-description = "Open source cross-platform web runtime based on the Chromium/Blink project"
-weight = 1
+description = "Open source web runtime for cross-platform application development"
+weight = 6
 
 [extra]
 header_image = "work/crosswalk-logo.png"

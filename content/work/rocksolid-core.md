@@ -1,10 +1,10 @@
 +++
-title = "Rocksolid Core"
+title = "Rocksolid Core, 2020-2022"
 description = "Platform for software defined vehicles, 2020-2022"
-weight = 1
+weight = 8
 
 [extra]
-header_image = "https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+header_image = "work/rocksolid.JPG"
 +++
 
 From 2020 to 2022 I was the "Head of Products" at [Basemark](https://www.basemark.com), a Finnish start-up with a background in graphics benchmarks that had pivoted to automotive software development before I joined. Soon after I started, we launched a new, ambitious project to create a full software platform for "Software Defined Vehicles" (SDV). The narrative was that automotive platforms were moving from a network of hundreds of different electronic components to a few centralized ones with most of the functionality implemented in software, and needed help from partneres experienced with such a setup.

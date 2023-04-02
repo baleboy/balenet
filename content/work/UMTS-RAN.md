@@ -1,10 +1,10 @@
 +++
-title = "UMTS Radio Access Network"
+title = "UMTS Radio Access Network, 2000-2002"
 description = "A web runtime for the rest of us"
 weight = 1
 
 [extra]
-header_image = "https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+header_image = "work/umts.webp"
 +++
 
 The Universal Mobile Telecommunication System (UMTS) was the third generation cellular communication standard and an evolution of GSM. You probably know it simply as 3G. As a network equipment manufacturer Nokia had been very successful with its GSM platform DX200, and in 2000 it was getting ready for the next generation. One part of this was the Radio Network Controller, based on the ATM protocol, for which Nokia was developing the IPA 2800 platform.

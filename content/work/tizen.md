@@ -1,10 +1,10 @@
 +++
-title = "Tizen"
+title = "Tizen Mobile, 2012-2013"
 description = "A mobile platform for TVs, 2012-2013" 
-weight = 1
+weight = 5
 
 [extra]
-header_image = "project-1.jpg"
+header_image = "work/tizen.jpeg"
 +++
 
 Tizen is an open-source, Linux-based operating system developed by Samsung and Intel. The simplest way to describe it is "Samsung's answer to Android". 

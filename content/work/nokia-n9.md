@@ -1,10 +1,10 @@
 +++
 title = "Nokia N9, 2008-2012"
 description = "Nokia's first and only Linux phone"
-weight = 1
+weight = 4
 
 [extra]
-header_image = "/projects/project-1.jpg"
+header_image = "/work/nokia-n9.jpeg"
 link_to = "https://github.com/not-matthias/apollo"
 +++
 

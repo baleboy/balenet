@@ -162,7 +162,8 @@ body {
   .card h3,
   .card p {
     margin: 10px;
-    color: #a0a0a0;
+    color: #ffffff;
+    border-bottom: 0px;
   }
   
   .card:hover {
