@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Balenet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/425a6b9b56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{ get_url(path="style.css") | safe }}">
+  </head>
+  <body>
+    <header>
+        <div class="title-wrapper">
+            <h1>Balenet</h1>
+            <div class="social-icons">
+              <a href="https://twitter.com/spacebono"><i class="fab fa-twitter"></i></a>
+              <a href="https://linkedin.com/in/frbale"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/baleboy"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Posts</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      {% block content %} {% endblock %}
+    </main>
+    <footer>
+        <p>Copyright 2023 ChatGPT</p>
+      </footer>      
+  </body>
+</html>
