@@ -4,8 +4,10 @@
 <h2>{{ section.title }}</h1>
 <ul class="post-list">
   {% for page in section.pages %}
-  <h2><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
-  <time>{{ page.date }}</time>
+  <li>
+    <h2><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
+    <time>{{ page.date }}</time>
+  </li>
   {% endfor %}
 </ul>
 {% endblock content %}

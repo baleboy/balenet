@@ -105,13 +105,12 @@ body {
   
   .post-list li {
     margin-bottom: 20px;
-    display: flex;
-    align-items: baseline;
   }
   
   .post-list h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    border-bottom: 0px;
   }
   
   .post-list time {
