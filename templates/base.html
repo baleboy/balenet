@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Balenet</title>
+    <title>{{ config.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
@@ -17,7 +17,7 @@
     <header>
 
         <div class="title-wrapper">
-            <h1>Balenet</h1>
+            <h1><a href={{ config.base_url }}>{{ config.title }}</a></h1>
           </div>
         <nav>
           <ul>
