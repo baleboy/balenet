@@ -10,7 +10,7 @@ body {
     background-size: contain;
     background-attachment: fixed;
     background-position: right bottom;
-    color: #80ff80;
+    color: #ffffff;
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
     line-height: 1.5;
@@ -26,6 +26,7 @@ body {
     align-items: center;
     background-color: #004000;
     padding: 10px;
+    color: #80ff80;
   }
   
   .title-wrapper {
