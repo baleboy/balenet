@@ -106,20 +106,19 @@ body {
   }
   
   .post-list li {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
   
-  .post-list h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+  .post-list h3 {
+    font-size: 18px;
+    margin-bottom: 2px;
     border-bottom: 0px;
   }
   
   .post-list time {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     color: #bfff00;
-    margin-bottom: 20px;
   }
    
   img {
