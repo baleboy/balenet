@@ -186,3 +186,8 @@ body {
     height: 100%;
   }
   
+  .profile_pic {
+    margin-left: 20px;  
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
