@@ -24,7 +24,7 @@ One of the first things I had to do was move our issue tracking from Github to J
 
 Because the project wasn't big and the team knew what to do, I had time to get involved in "developer outreach", meaning that I interacted with users on our mailing list, conducted surveys about what feature were most needed and presented the project at meetups and conferences. Here is a video from Phonegap Days in Amsterdam:
 
-{{ youtube(id="s_3gUHwg4ms", autoplay=false, class="youtube") }}
+{{ youtube(id="s_3gUHwg4ms") }}
 
 ## What I learned
 
