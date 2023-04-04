@@ -21,6 +21,8 @@ The service was launched around 2006 (in time for the soccer world cup) by major
 
 ## What I did
 
+![Mobile TV network](/work/mobile-tv.jpg)
+
 I was the project manager for the "E-commerce system" (ECS) the server in charge of managing channel subscriptions and distributing digital rights to users' phones. The development of the ECS was fully outsourced to Wipro in Hyderabad, where I traveled several times. In the beginning I was also acting as a "systems architect" and writing specifications and architecture documents, and in this role I attended several standardization meetings in the OMA Mobile Broadcast and DVD groups.
 
 I also supported the sales team in technical pre-sales discussions and answering RFPs and RFQs. One highlight was the work with the "German consortium" that was really a "co-creation" activity involving some very talented technical people.

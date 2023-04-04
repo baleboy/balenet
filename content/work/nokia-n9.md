@@ -8,7 +8,7 @@ header_image = "/work/nokia-n9.jpeg"
 link_to = "https://github.com/not-matthias/apollo"
 +++
 
-In 2007 the iPhone was launched and it was a watershed for Nokia. Nokia had been in the number 1 phone maker spot since 1998, and would still be for a few years, but nobody could deny (although many tried) that the iPhone was a game changer.
+The launch of the iPhone in 2007 was a watershed for Nokia. Nokia had been in the number 1 phone maker spot since 1998, and would still be for a few years, but nobody could deny (although many tried) that the iPhone was a game changer.
 
 One of Nokia's responses was to accelerate the development of a Linux smartphone, which had been in the works for a few years as a skunkworks project within the Open Source Software Operations (OSSO) division. There was already a model in developement, the N900, but it was still a niche product and wasn't considered competitive enough. In parallel, Nokia began the development of what would become the Nokia N9, and the Meego platform it was built on.
 

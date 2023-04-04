@@ -1,33 +1,64 @@
 +++
-title = "UMTS Radio Access Network, 2000-2002"
-description = "A web runtime for the rest of us"
+title = "UMTS RNC, 2000-2002"
+description = "3G Network"
 weight = 1
 
 [extra]
 header_image = "work/umts.webp"
 +++
 
-The Universal Mobile Telecommunication System (UMTS) was the third generation cellular communication standard and an evolution of GSM. You probably know it simply as 3G. As a network equipment manufacturer Nokia had been very successful with its GSM platform DX200, and in 2000 it was getting ready for the next generation. One part of this was the Radio Network Controller, based on the ATM protocol, for which Nokia was developing the IPA 2800 platform.
+UMTS (Universal Mobile Telecommunications System) is a third-generation (3G) mobile communication network standard that provides high-speed data, voice, and multimedia services. Nokia had been very successful with its 2/2.5G GSM and GPRS circuit switching platform "DX200", and in 2000 it was getting ready to repeat the same succes with its next generation "IPA2800". 
 
-UMTS had a rocky start, what with the ridiculous price of 3G license and the 2000 dotcom bust, but eventually made it to the mainstream and so did IPA 2800. It's probably still installed somewhere.
+Among the many network elements of a UMTS network is the Radio Network Controller (RNC), which connects the base stations, and therefore the users, to the core network, where all the switching magic that takes one packet from one end of the world to the other happens.
+
+![UMTS network structure](/work/UMTS-Network-Structure.png)
+
+UMTS came at a strange time in the history of telecommunications and technology in general. It was the peak of the dot-com bubble, and the mobile internet was rightfully seen as the next Big Thing. Governments became greedy and sold the licenses for the UMTS frequency spectrum at insanely high prices. This, and the dot-com bust, wiped away or killed the profits of many companies, mainly mobile operators and network equipment manufacturers.
+
+Eventually 3G became mainstream, and the evolution to 3.5G, 4G and 5G that followed was much more uneventful. 
 
 ## What I did
 
-This was my first "real job" as a software engineer, or as it was called, "R&D Engineer". The organization I was part of was called "packet switching department" and was in charge of developing the network infrastructure equipment for the next generation of mobile communication network, which at the time was UMTS or, as it became commonly know, 3G. 
+I started at Nokia Network's Packet Switching department in January 2000 with the title of "R&D Engineer". I was fascinated by computer networks at the time, and especially mobile communications and mobile phones, and Nokia was the biggest name around. My master's thesis had been about Connection Admission Control, one of the features of the Radio Network Controller, and this job looked like the perfect continuation of my studies.
 
-When I joined I worked for a while on the previous generation, DX200/GSM that was programmed using a high-level language called TNSDL (Tele Nokia - SDL). Later I moved to the next generation IPA 2800 that was to be based on a new Posix RTOS called Chorus, programmed using C. One of the most exciting thing I did was to develop the first device driver ever to run on Chorus OS as a proof-of-concept. My responsibility was the device driver for the APC by Agere technologies, later bought by Lucent.
+My first task was to write tests for one of the software components in the DX200 system, the purpose of which is now lost to me. Software for Nokia's switching elements was written using a high-level language called TNSDL (Tele Nokia - SDL), developed in-house. TNSDL was basically a compilable state-machine description language. Here is what it looked like:
 
-I left the project after two years because at the time my heart was in object oriented programming and I considered what I was doing too "old fashioned". I don't know how much of my code was preserved after I left, but I like to think that for a while my software was somehow involved in getting 3G calls through :)
+```
+STATE idle COMMENT 'Idle state';
+  INPUT are_you_busy;
+    OUTPUT no TO SENDER;
+    NEXTSTATE -; /* No state change */
+  /* ... other input handlers */
+ENDSTATE idle;
+
+STATE *(idle) COMMENT 'Any state, except idle';
+  INPUT are_you_busy;
+    OUTPUT yes TO SENDER;
+    NEXTSTATE -; /* No state change */
+ENDSTATE *(idle);
+
+STATE * COMMENT 'Any state';
+  INPUT are_you_alive;
+    OUTPUT yes TO SENDER;
+    NEXTSTATE -; /* No state change */
+ENDSTATE *;
+```
+
+Later I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou (China). But before that, I moved to the next generation IPA 2800, parts of which were based on a new Posix RTOS by Sun Microsystems called ChorusOS. One of the most exciting things I did was developing Nokia's first device driver to run on ChorusOS. "My" driver's responsibility was handling a switching processor by Agere technologies, an American company later bought by Lucent. 
+
+I don't know how much of my code was preserved after I left, but I like to think that for a while my software was somehow involved in getting 3G calls through.
 
 ## What I learned
 
-In retrospect, this wasn't the best starting job for an aspiring software wizard. But the truth is that at the time I was more interested in computer networks than anything else, and I felt that the packet switching department was the right place to continue what I specialized on with my thesis on "Connection Admission Control using Neural Networks" (isn't that a mouthful) and internship at Telecom Italia. At that point I had decided that mobile telecommunications were the future, my future, and Nokia was the biggest name, so I didn't care what I did as long as I could get in.
+This being my first job in a large corporation, and the first time I lived abroad on my own, I learned a lot. I learned how to work in a team, how to communicate with people from different cultures, and how to work in a large project.
 
-Technically the job wasn't very interesting, like any other driver mine had to initialize the DSP, read and write some registers and occasionally handle some interrupts. I did however learn a lot about team work, communication and what it's like to work in a huge project. I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou. At some point I was considered an "expert" because I knew "my" processor inside out, and one of the highlights was when the chief architect came to my room (yes, I had a room) to copy a wall-sized diagram of the registers I had drawn to wrap my head around it.
+Technically however I can't say that I learned much, which is why after two years I left. The code itself was not very complex, and the practices rather old-fashioned, although at the time I didn't know any better. Just to give an example, if I missed an integration deadline I had to make a phonecall (!) to the release manager to get my component integrated.  
 
-I discovered my passion for debugging! Remember in the lab, with Tomi Wilska
+## Notes
 
-Making phonecalls to the APSMAN lady to get a release integrated.
+* the name "IPA2800" apparently came from "IP" for IP networking, "200" for DX200 and "8" because for the Chinese lucky number. No idea what the "A" stood for.
 
-And the most important experience of course was that I had to learn to live on my own in another country.
+https://en.wikipedia.org/wiki/ChorusOS
+http://datasheet.elcodis.com/pdf/50/60/506010/tapc640l34-bllk3e-db.pdf
+https://en.wikipedia.org/wiki/TNSDL
 
