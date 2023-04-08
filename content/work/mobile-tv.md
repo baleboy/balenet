@@ -7,31 +7,31 @@ weight = 3
 header_image = "work/mobiletv.webp"
 +++
 
-Around 2004, Nokia and other companies were working on a technology to bring digital video broadcast to mobile phones. The key standards to enable this were DVB-H, the "handeld" profile of the Digital Video Broadcast standard and DVB-IPDC (IP DataCast), which specified how to send broadcast video and related metadata (the Electronic Service Guide) over an IP connection. 
+In the early 2000s, during the rise of digital video and before the advent of streaming, broadcasters and mobile operators were looking for ways to bring TV to mobile phones. One such way was [DVB-H](https://en.wikipedia.org/wiki/DVB-H), a technology that used the same radio spectrum as DVB-T, the digital terrestrial TV standard, to broadcast TV channels to mobile phones.
 
-Inside Nokia the project started as a sort of internal startup, part of the Nokia Ventures Organization incubator, and later graduated to the Nokia Multimedia division. Nokia was developing both network elements (the "Mobile Broadcast Solution") and devices, starting with the experimental Nokia 7700 and 7710.
+There was a small team working on this at Nokia, called "IPDC" (IP Datacast). It was hosted within the Nokia Ventures Organization incubator and later, when the technology became more mature, moved to the Nokia Multimedia division. At this point Nokia Mobile Phones and Nokia Networks had split in two separate companies, and unlike the PoC project where I had worked before, the server side of the Mobile TV project was also developed by Nokia Mobile Phones.
 
-Standardization played a big role in the project, both in the DVB and Open Mobile Alliance (OMA) bodies, and one of the most contention topics were how to guarantee copy protection and digital rights management. The OMA Mobile TV chapter was divided between Smartphone-based and Smartcard (SIM)-based security, and the fights between mobile phone manufacturers like Nokia and SIM providers like Gemalto were sometimes epic.
+The first device to receive DVB-H broadcasts was the Nokia 770 Internet Tablet, which was released in 2005, followed by the 7710. Both of them were experimental models and never went on sale. The first phone to receive DVB-H broadcasts was the Nokia N92, codenamed "Magnum", released in 2006, quickly followed by the cheaper N77 and a few more. Below is my collection of DVB-H phones: N770, N7710 and N77. I had an N92 as well but I can't find it anymore (which is a pity because I just saw it going for 1300 EUR on eBay!).
 
-Nokia's flagship DVB-H phone was the Nokia N92, codenamed "Magnum", followed by the low-cost N77 and a few more (see here for the full list https://www.phonegg.com/List/DVB-H-Cell-Phones.html)
+![Mobile TV phones](/work/tv-phones.jpg)
 
-T-Mobile, Vodafone and O2
+Standardization was taking place both in the Open Mobile Alliance (OMA) and DVB Forum organizations, which complicated things quite a bit. Nokia was active in both standards and was committed to avoiding fragmentation, but other companies were favoring either side. One of the biggest fights was about Digital Rights Management. Basically whoever distributed the DRM keys would own the customer, and brodcasters, mobile operators and handset manufacturers all wanted to be in that role. The conclusion was to have different DRM profiles, smartcard-based and handset-based, with variations for DVB and OMA. As they say, the good thing about standards is that there are so many to choose from.
 
-The service was launched around 2006 (in time for the soccer world cup) by major operators, and continued to roll out in different countries until it was shut down pretty much everywhere by 2012, replaced by the much more convenient video streaming that didn't require any specialized radio technology. 
+In Europe the service was launched in limited areas by major operators during hte 2006 football world cup, and continued to roll out in different countries until it was shut down pretty much everywhere by 2012, replaced by the much more convenient video streaming that didn't require any specialized radio technology.
 
 ## What I did
 
-![Mobile TV network](/work/mobile-tv.jpg)
+I was the project manager for the "Broadcast Account Manager" (BAM), the server in charge of managing channel subscriptions and distributing digital rights to users' phones. The development of the BAM was fully outsourced to Wipro in Hyderabad, where I traveled several times. In the beginning I was also acting as a systems architect and writing specifications and architecture documents, and in this role I attended several standardization meetings in the OMA Mobile Broadcast and DVD groups.
 
-I was the project manager for the "E-commerce system" (ECS) the server in charge of managing channel subscriptions and distributing digital rights to users' phones. The development of the ECS was fully outsourced to Wipro in Hyderabad, where I traveled several times. In the beginning I was also acting as a "systems architect" and writing specifications and architecture documents, and in this role I attended several standardization meetings in the OMA Mobile Broadcast and DVD groups.
+![Mobile TV network](/work/MBS.png)
 
-I also supported the sales team in technical pre-sales discussions and answering RFPs and RFQs. One highlight was the work with the "German consortium" that was really a "co-creation" activity involving some very talented technical people.
+I also supported the sales team in technical pre-sales discussions and answering RFPs and RFQs. One highlight was the work with the "German consortium", a coalition of T-Mobile, Vodafone and O2 that was bidding for the DVB-H license in Germany. We were offering a joint solution with Nokia Networks (which by this time had become Nokia Siemens) and after many months of negotiations we won the contract. Sadly the German Consortium wasn't awarded the license and the project was cancelled, but I'm still very proud of the result.
 
 ## What I learned
 
-This was my first project management job and I enjoyed it a lot. I did have a nagging feeling that I was leaving coding behind, but it got drowned by the excitement of finally being able to call the shots and "see the big picture", not to mention having a more varied working day and the traveling. It helped that the team was small and mostly free from interference from the rest of the company, and that I had excellent managers, probably the best I've had in my career.
+This was my first project management job and I enjoyed it a lot. I did have a nagging feeling that I was leaving coding behind, but it got drowned by the excitement of finally being able to call the shots and "see the big picture", not to mention having a more varied working day and a good amount of traveling. It helped that the team was small and mostly free from interference from the rest of the company, and that I had excellent managers, probably the best I've had in my career.
 
-I had my first exposure to Agile when, out of curiosity, I went to a Certified Scrum Master course (by Jens and Bruce). I never really managed to apply the practices to my work during my time in the Mobile TV team, but I was deeply affected by the Agile Manifesto and the concepts explained in the course. "The true measure of progress is working software" has been one of my mantras ever since.
+I had my first exposure to Agile when, out of curiosity, I went to a Certified Scrum Master course held by Jeff Sutherland, one of the fathers of Scrum. I never really managed to apply the practices to my work during my time in the Mobile TV team, but I was deeply affected by the Agile Manifesto and the concepts explained in the course. "The true measure of progress is working software" has been one of my mantras ever since.
 
 I definitely stepped out of my comfort zone with the standardization work. Within the year or so that I participated in the OMA activities, I grew from a shy listener with impostor syndrome, to a confident delegate capable of creating and challenging new parts of the standard. The high point was a joint Change Request with Qualcomm, which was tought impossible since Qualcomm was Nokia's arch-enemy in that group (they had a competing technology called MediaFlo).
 

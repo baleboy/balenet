@@ -21,7 +21,7 @@ Eventually 3G became mainstream, and the evolution to 3.5G, 4G and 5G that follo
 
 I started at Nokia Network's Packet Switching department in January 2000 with the title of "R&D Engineer". I was fascinated by computer networks at the time, and especially mobile communications and mobile phones, and Nokia was the biggest name around. My master's thesis had been about Connection Admission Control, one of the features of the Radio Network Controller, and this job looked like the perfect continuation of my studies.
 
-My first task was to write tests for one of the software components in the DX200 system, the purpose of which is now lost to me. Software for Nokia's switching elements was written using a high-level language called TNSDL (Tele Nokia - SDL), developed in-house. TNSDL was basically a compilable state-machine description language. Here is what it looked like:
+My first task was to write tests for one of the software components in the DX200 system, the purpose of which is now lost to me. Software for Nokia's switching elements was written using a high-level language called [TNSDL](https://en.wikipedia.org/wiki/TNSDL), developed in-house. TNSDL was basically a compilable state-machine description language. Here is what it looked like:
 
 ```
 STATE idle COMMENT 'Idle state';
@@ -44,7 +44,7 @@ STATE * COMMENT 'Any state';
 ENDSTATE *;
 ```
 
-Later I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou (China). But before that, I moved to the next generation IPA 2800, parts of which were based on a new Posix RTOS by Sun Microsystems called ChorusOS. One of the most exciting things I did was developing Nokia's first device driver to run on ChorusOS. "My" driver's responsibility was handling a switching processor by Agere technologies, an American company later bought by Lucent. 
+Later I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou (China). But before that, I moved to the next generation IPA 2800, parts of which were based on a Posix RTOS by Sun Microsystems called [ChorusOS](https://en.wikipedia.org/wiki/ChorusOS). One of the most exciting things I did was developing Nokia's first device driver to run on ChorusOS. "My" driver's responsibility was handling a switching processor by Agere technologies, an American company later bought by Lucent. 
 
 I don't know how much of my code was preserved after I left, but I like to think that for a while my software was somehow involved in getting 3G calls through.
 
@@ -57,8 +57,6 @@ Technically however I can't say that I learned much, which is why after two year
 ## Notes
 
 * the name "IPA2800" apparently came from "IP" for IP networking, "200" for DX200 and "8" because for the Chinese lucky number. No idea what the "A" stood for.
-
-https://en.wikipedia.org/wiki/ChorusOS
 http://datasheet.elcodis.com/pdf/50/60/506010/tapc640l34-bllk3e-db.pdf
-https://en.wikipedia.org/wiki/TNSDL
+
 

@@ -7,13 +7,13 @@ weight = 5
 header_image = "work/tizen.jpeg"
 +++
 
-Tizen is an open-source, Linux-based operating system developed by Samsung and Intel. The simplest way to describe it is "Samsung's answer to Android". 
+Tizen is an open-source, Linux-based operating system developed by Samsung and Intel. The simplest way to describe it is "Samsung's Android". 
 
-Tizen began as a continuation of Intel's efforts to create an open source mobile operating system that wouldn't be controlled by Google and, most importantly, wouldn't be optimized only for ARM processors. Earlier incarnations were called Mobile Linux, MobLin and Meego (with Nokia). Tizen was born from Meego's ashes after Nokia went the Windows Phone way and Samsung joined soon after, bringing their Bada operating system with them.
+Tizen began as a continuation of Intel's efforts to create an open source mobile operating system that wouldn't be controlled by Google and, most importantly for Intel, wouldn't be optimized only for ARM processors. Earlier incarnations were called Mobile Linux, MobLin and Meego (with Nokia). Tizen was born from Meego's ashes after Nokia went the Windows Phone way and Samsung joined soon after, bringing their Bada operating system with them.
 
 Tizen was designed for use in a wide range of devices, including smartphones, tablets, smart TVs, wearables, in-vehicle infotainment systems, and other Internet of Things (IoT) devices. Tizen flavors for different types of devices were called "profiles" and when I joined Intel in 2012 the mobile profile was its crown jewel, expected to power a signficant number of smartphones running on Intel's chips within a few years.
 
-The reality was that Intel's mobile chips weren't very good, and Tizen Mobile itself (in practice a rebranding of Samsung's Bada OS) couldn't hold a candle to Android. Intel still tried to make Tizen a success in IVI systems, but eventually gave up, first on Tizen and later on mobile altogether.
+The reality was that Intel's mobile chips weren't very good, and Tizen Mobile itself (in practice a rebranding of Samsung's Bada OS) couldn't hold a candle to Android. Intel still tried to make Tizen a success in IVI systems, but eventually gave up, first on Tizen and later on mobile altogether. Tizen however continued to live on in Samsung's smart TVs, and is still being developed, although with no contributions from Intel.
 
 ## What I did
 
@@ -28,3 +28,5 @@ I had the opportunity to apply my project management chops to a different enviro
 One thing that Intel does very well is open source, and I learned a lot about open source development and licensing, which is something I had only a cursory undestanding of up to this point.
 
 At Nokia, the program manager was the "hero", the person who called the shots, taking engineers from engineering managers and molding them into a team that delivered a product. At Intel however the project/program manager was more of a support role, whereas the real power resided with engineerng managers. I could see with my own eyes the difference between a true "matrix organization" and a "functional" one.
+
+To be frank, this was perhaps the least favorite of the jobs I've had. Intel was a great pleace to work, and the Open Source Technology Center had some wonderful people, but you could tell from the start that Tizen itself was a dead end. I was happy when it was over and I could move on to my next assignment.

@@ -7,15 +7,19 @@ weight = 2
 header_image = "work/nokia-5140.jpeg"
 +++
 
-Push-to-talk over Cellular, or PoC as it was commonly known, was a Voice-over-IP service that replicated the functionality of two-way radio communication (in other words walkie-talkies) on regular, internet-enabled mobile phones. It was developed by Nokia's Professional Mobile Radio (PMR) division as an evolution of its reasonably successful [TETRA]((https://en.wikipedia.org/wiki/Professional_mobile_radio)) handhelds and network, and meant for both professionals and consumers. An often flaunted use case was "a group of friends skiing together and keeping in touch via one-to-many group communication".
+Push-to-talk over Cellular, or PoC as it was commonly known, was a Voice-over-IP service that replicated the functionality of two-way radio communication (in other words walkie-talkies) on regular, internet-enabled mobile phones. It was developed by Nokia's Professional Mobile Radio (PMR) division as an evolution of its [TETRA]((https://en.wikipedia.org/wiki/Professional_mobile_radio)) technology, and meant for both professionals and consumers. A use case often taken as an example was "a group of friends skiing together and keeping in touch via one-to-many group communication".
 
 ![OMA PoC Architecture](/work/poc.png)
 
-Today you would just run the service on some kind of public internet server, but in the early 2000s, when the project started, mobile IP connectivity was very limited and VoIP was only feasible with dedicated servers installed in a mobile operator's network, which is what Nokia was planning to sell. The underlying platform was a carrier-grade version of Linux called Montavista and Nokia's [FlexiServer]((https://www.globenewswire.com/news-release/2002/02/20/1845763/0/en/Nokia-unveils-uniform-platform-technology-for-All-IP-mobility-networks.html)) platform which was a more modern version of the IPA and DX200 platforms I had worked on previously.
+Today you would just run the service on some kind of public internet server, but in the early 2000s, when the project started, mobile IP connectivity was very limited and VoIP was only feasible with dedicated servers installed in a mobile operator's network, which is what Nokia was planning to sell. The underlying platform was a carrier-grade version of Linux called Montavista and Nokia's [FlexiServer]((https://www.globenewswire.com/news-release/2002/02/20/1845763/0/en/Nokia-unveils-uniform-platform-technology-for-All-IP-mobility-networks.html)) platform which was a more modern version of the IPA2800 and DX200 platforms I had worked on previously.
 
-Other companies were working on similar products, and interoperability was to be provided by a new [standard defined by the Open Mobile Alliance](http://www.openmobilealliance.org/release/PoC/V2_0-20110802-A/OMA-AD-PoC-V2_0-20110802-A.pdf). Even Nokia's fully proprietary first version of the product was based on standard protocols like SIP for client-server communication, and the more obscure [Megaco](https://datatracker.ietf.org/doc/html/rfc3015). 
+Other companies were working on similar products, and interoperability was to be provided by a new [standard defined by the Open Mobile Alliance](http://www.openmobilealliance.org/release/PoC/V2_0-20110802-A/OMA-AD-PoC-V2_0-20110802-A.pdf). Even Nokia's fully proprietary first version of the product was based on standard protocols like [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) for client-server communication, and the more obscure [Megaco](https://datatracker.ietf.org/doc/html/rfc3015). 
 
-This being Nokia, there couldn't be a network feature without a corresponding mobile phone. The first target was a rugged phone codenamed Debra and released to the market as the Nokia 5140. A few more phones after that had the feature, but the service didn't last long as VoIP applications like Skype were becoming popular.
+This being Nokia, there couldn't be a network feature without a corresponding mobile phone. The first target was a rugged phone codenamed Debra and released to the market as the Nokia 5140. Sadly I don't have that phone anymore, but here is how it looked like: 
+
+![Nokia 5140](/work/debra.png)
+
+A few more phones after that had the feature, but the service didn't last long as VoIP applications like Skype were becoming popular. The PoC team was later repurposed to work on other mobile internet serivces, and the product was eventually discontinued in 2007.
 
 ## What I did
 
