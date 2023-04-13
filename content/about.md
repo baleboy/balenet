@@ -10,6 +10,10 @@ I am an Italian software engineer living in Finland.
 
 Sometimes I think about stuff and I feel the urge to write it down. This helps me structure my thoughts and remember what I have done. To give myself the motivation to finish what I start writing, I created this website.
 
-The theme of this site is loosely inspired by the ZX Spectrum, my first computer and true love.
+### Credits
 
-Site made with Zola, Spectrum font by... CSS by ChatGPT
+* Static site generator: [Zola](https://www.getzola.org)
+* Title font:  [Spectrum Next](https://tracertong.co.uk/ttfw3/product/spectnext/) 
+* CSS by [ChatGPT](https://chat.openai.com/chat) and me
+
+The theme of this site is loosely inspired by the [ZX Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum), my first computer.
