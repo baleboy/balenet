@@ -13,7 +13,7 @@ Among the many network elements of a UMTS network is the Radio Network Controlle
 
 ![UMTS network structure](/work/UMTS-Network-Structure.png)
 
-UMTS came at a strange time in the history of telecommunications and technology in general. It was the peak of the dot-com bubble, and the mobile internet was rightfully seen as the next Big Thing. Governments became greedy and sold the licenses for the UMTS frequency spectrum at insanely high prices. This, and the dot-com bust, wiped away or killed the profits of many companies, mainly mobile operators and network equipment manufacturers.
+UMTS came at a strange time in the history of telecommunications and technology in general. It was the peak of the dot-com bubble, and the mobile internet was rightfully seen as the next Big Thing. Governments became greedy and sold the licenses for the UMTS frequency spectrum at insanely high prices. This, and the dot-com bust, wiped away the profits of many companies, mainly mobile operators and network equipment manufacturers.
 
 Eventually 3G became mainstream, and the evolution to 3.5G, 4G and 5G that followed was much more uneventful. 
 
@@ -44,7 +44,7 @@ STATE * COMMENT 'Any state';
 ENDSTATE *;
 ```
 
-Later I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou (China). But before that, I moved to the next generation IPA 2800, parts of which were based on a Posix RTOS by Sun Microsystems called [ChorusOS](https://en.wikipedia.org/wiki/ChorusOS). One of the most exciting things I did was developing Nokia's first device driver to run on ChorusOS. "My" driver's responsibility was handling a switching processor by Agere technologies, an American company later bought by Lucent. 
+Later I became an official Nokia Trainer and gave courses about TNSDL, which gave me the chance to visit Hangzhou (China). But before that, I moved to the next generation IPA 2800, parts of which were based on a Posix RTOS by Sun Microsystems called [ChorusOS](https://en.wikipedia.org/wiki/ChorusOS). One of the most exciting things I did was developing Nokia's first device driver to run on ChorusOS. "My" driver's responsibility was handling a switching processor by [Agere Systems](https://en.wikipedia.org/wiki/Agere_Systems), an American company later bought by Lucent. 
 
 I don't know how much of my code was preserved after I left, but I like to think that for a while my software was somehow involved in getting 3G calls through.
 
@@ -57,6 +57,6 @@ Technically however I can't say that I learned much, which is why after two year
 ## Notes
 
 * the name "IPA2800" apparently came from "IP" for IP networking, "200" for DX200 and "8" because for the Chinese lucky number. No idea what the "A" stood for.
-http://datasheet.elcodis.com/pdf/50/60/506010/tapc640l34-bllk3e-db.pdf
+* I found the datasheet for the APC processor: http://datasheet.elcodis.com/pdf/50/60/506010/tapc640l34-bllk3e-db.pdf
 
 
