@@ -66,31 +66,31 @@ After a few iterations, I ended up with the following button assignment:
 
 The "hot-key" is used to access some special functions and configurations while playing a game. For example "Hotkey + Start" exits the current game. The hotkey is handled by RetroArch and needs to be configured in its GUI, but it's easier to test it with some games, so let's get them installed first!
 
-As the Picade documentation recommends, this is also a good time to decrease the default volume level, since it is pretty loud by default. This is done by pressing "Start" to bring up the ES menu. The audio device needs to be PCM and driver Also. Note that the "Audio" menu in the "Retropie" section of emulation station doesn't do anything since it is used to manage the onboard audio which is disabled when using the Picade. I found this annoying and figured out that it can be removed by deleting or renaming the file /RetroPie/retropiemenu/audiosettings.rp
+As the Picade documentation recommends, this is also a good time to decrease the default volume level, since it is pretty loud by default. This is done by pressing "Start" to bring up the ES menu. The audio device needs to be `PCM` and driver `Alsa`. Note that the `Audio` menu in the `Retropie` section of emulation station doesn't do anything since it is used to manage the onboard audio which is disabled when using the Picade. I found this annoying and figured out that it can be removed by deleting or renaming the file `/RetroPie/retropiemenu/audiosettings.rp`
 
 ## Getting some games
 
 With the basics set up, the next step was to try some games. First of all, I needed to decide what emulator to use. There are several emulators for arcade games, but the two main choices are MAME and FinalBurn Neo. MAME focuses on accuracy of emulation, FB on performance and playability. Since a good playing experience is more important for me than fidelity of emulation, I went with FB Neo.
 
-Games are copyrighted and you shouldn't download them, but in practice everyone does it and as long as you don't sell or redistribute them I guess it's OK. Googling "FB Neo ROMS" will lead you to the right place, another good source is the "ROM megathread" originated from Reddit:
+Games are copyrighted and you shouldn't download them, but in practice everyone does it and as long as you don't sell or redistribute them I guess it's OK. Googling "FB Neo ROMS" will lead you to the right place, another good source is the "ROM megathread" from Reddit:
 
 [/r/Roms Megathread](https://r-roms.github.io/)
 
-Eventually I downloaded the full 7000+ ROM set (17GB!) for FB Neo and was facing the interesting challenge of choosing which ones to install. Transferring all of them would be possible, but picking the right ones from the ES UI would be a pain, plus some are really bad and not worth the disk space.
+Eventually I downloaded the full 7000+ ROM set (17GB!) for FB Neo and was faced with the interesting challenge of choosing which ones to install. Transferring all of them would be possible, but picking the right ones from the ES UI would be a pain, plus some are really bad and not worth the disk space.
 
 I resorted to "best of classic arcade games" lists such as this:
 
 [https://www.boredpanda.com/best-arcade-games/](https://www.boredpanda.com/best-arcade-games/?utm_source=google&utm_medium=organic&utm_campaign=organic)
 
-The list I came up with is a mix of historically relevant (Space Invaders), top-rated (Cadillacs and Dinosaurs) and nostalgia-infused (Bubble Bobble, Shinobi, Street Fighter) games. You can find it at the end of this post.
+The list I came up with is a mix of historically relevant (Space Invaders), top-rated (Cadillacs and Dinosaurs) and nostalgia-infused (Bubble Bobble, Shinobi, Street Fighter) games. You can find it [here](https://github.com/baleboy/picade-configs/blob/master/emulationstation/gamelist.xml) (in XML!).
 
-ROMs are saved in the RetroPie/roms/arcade folder that is not specific to any emulator, but the default seems to be FB Neo. I transferred them one by one via SSH, but there is a neat way to do it by plugging  USB stick in the Retropie as described here:
+ROMs are saved in the `RetroPie/roms/arcade` folder that is not specific to any emulator, but the default seems to be FB Neo. I transferred them one by one via SSH, but there is a neat way to do it by plugging a USB stick in the Retropie as described here:
 
 [https://retropie.org.uk/docs/Transferring-Roms/](https://retropie.org.uk/docs/Transferring-Roms/)
 
-Choosing the correct ROM file is not trivial. Games used to have a lot of variants (e.g. US, Europe or Japan) and the ROMs for each of these are almost identical, so ROM "packagers" typically distribute them as one main ROM file and small variant files that include only the delta and reference back to the main one. This is done to save disk space, but the result is that if you only want to play any one variant, you need two ROMs and both will appear in your game list, which is annoying. The alternative are the self-contained "merged" ROMs, but they take more space.
+Choosing the correct ROM file is not trivial. Games used to have a lot of variants (e.g. US, Europe or Japan) and the ROMs for each of these are almost identical, so ROM "packagers" typically distribute them as one main ROM file and small variant files that include only the delta, referencing back to the main one. This is done to save disk space, but the result is that if you only want to play any one variant, you need two ROMs and both will appear in your game list, which is annoying. The alternative are the self-contained "merged" ROMs, but they take more space.
 
-In my case I didn't care about variants and wanted to play the main game only, so split or merged didn't make any difference. The tricky part was to find the correct file. Typically this is the one with the name of the game with no additional letters at the end, e.g. "bublbobl.zip" (main) as opposed to "bublboblr.zip" (Japan).
+In my case I didn't care about variants and wanted to play the main game only, so split or merged didn't make any difference. The tricky part was to find the correct file. Typically this is the one with the name of the game with no additional letters at the end, e.g. `bublbobl.zip` (main) as opposed to `bublboblr.zip` (Japan).
 
 Mapping a game's title to the ROM filename is also not trivial because names are shortened, usually it's pretty obvious but for the hard ones I used the search engine at:
 
@@ -100,7 +100,7 @@ Of all the games in my list, only Paperboy wasn't supported by FBNeo. To work ar
 
 ## Configuring Retroarch
 
-Retroarch manages everything about a running game, and it has a lot of tweaks and options that are configured through the Retroarch GUI. The GUI can be started from the "Retropie" menu in EmulationStation, or from within the game with "Hotkey +X". By default you need to remember to save manually but there is an option to do so automatically on exit. Settings can be global, per "core" (emulator) or per ROM.
+Retroarch manages everything about a running game, and it has a lot of tweaks and options that are configured through the Retroarch GUI. The GUI can be started from the `Retropie` menu in EmulationStation, or from within the game with `Hotkey +X`. By default you need to remember to save manually but there is an option to do so automatically on exit. Settings can be global, per "core" (emulator) or per ROM.
 
 ### Hotkey mapping
 
@@ -108,9 +108,9 @@ Retropie's documentation lists the following hotkeys:
 
 ![Näyttökuva 2022-11-6 kello 11.25.00.png](https://res.craft.do/user/full/58e85b69-1aa6-c3c8-74ac-daf2b8beae9a/doc/3f2a4858-ca72-4ef9-aacc-2b34b5ed4866/91293ed5-a91d-4502-a8ca-73f0a03adc64)
 
-All of them are useful and worked out of the box, except for the Save and Load that I had to configure to the RS and LS. "Save" and "Load" let you save your progress in the game, and the data is saved in "state slots". You can move to another save slot by pressing Hotkey and left or right.
+All of them are useful and worked out of the box, except for the Save and Load that I had to configure to the RS and LS. `Save` and `Load` let you save your progress in the game, and the data is saved in "state slots". You can move to another save slot by pressing Hotkey and left or right.
 
-The other Hotkey that I found useful is "Pause" which I assigned to Hotkey + Y.
+The other Hotkey that I found useful is `Pause` which I assigned to `Hotkey + Y`.
 
 ### Shaders
 
@@ -124,7 +124,7 @@ As usual, the Retropie documentation explains this better than I ever could:
 
 One thing that I found particularly impressive is that some of the vertical-scrolling games (so-called vertical games) were played on a TV screen rotated by 90 degrees. For those games, the shaders will also be rotated automatically and the scanlines will be vertical!
 
-Shaders are configured from the RetroArch GUI, which can be launched either from within the game (Hotkey + X) or from the Retropie menu in ES. Shaders can be per-game, per-core (i.e. emulator) or global. I chose the zfast-crt shader and configured it to be global. (global presets)
+Shaders are configured from the RetroArch GUI, which can be launched either from within the game (`Hotkey + X`) or from the Retropie menu in ES. Shaders can be per-game, per-core (i.e. emulator) or global. I chose the `zfast-crt` shader and configured it to be global. (global presets)
 
 ### Latency
 
@@ -134,7 +134,7 @@ See the Retropie documentation for a thorough discussion about latency:
 
 [Input Lag - RetroPie Docs](https://retropie.org.uk/docs/Input-Lag/)
 
-It's basically a choice between low input latency and smooth framerate. Typically, to avoid glitches graphics engines use an amount of buffers to draw the next frames off-screen before they are displayed, but this means that an action from the player may take two or three frames before its effect is displayed. On the contrary, drawing and showing frames in the next frame after the player's action means that you have less time to do it and may end up with an incomplete frame. Since the games in question are mainly 2D with low resolution, I have a hunch the RPi4 should able to handle them without too much buffering and that low latency can be prioritized.
+It's basically a choice between low input latency and smooth framerate. Typically, to avoid glitches graphics engines use an amount of buffers to draw the next frames off-screen before they are displayed, but this means that an action from the player may take two or three frames before its effect is displayed. On the contrary, drawing and showing frames in the next frame after the player's action means that you have less time to draw it and may end up with an incomplete frame. Since the games in question are mainly 2D with low resolution, I had a hunch the RPi4 should able to handle them without too much buffering and that low latency can be prioritized.
 
 Retroarch gives a lot of control on the way the content is displayed, but different tweaks have different effects on each game. Since Bubble Bobble is the game I always go back to, and since higher latency has a very visible effect on the gameplay, I focused my experiment on that.
 
@@ -148,9 +148,9 @@ In the above, I changed the default values for Max swap chain images, Hard GPU S
 
 I couldn't pinpoint one setting that would have a bigger impact than the others, all of them somehow contributed in what looked like the best responsiveness. I didn't play around with Polling behaviour or Game mode (which requires the installation of a dedicated daemon) as I was pretty happy with the results I got.
 
-I also set the "CPU governor" to "performance" in the Runcommand options accessed from the main configuration menu.
+I also set the `CPU governor` to `performance` in the Runcommand options accessed from the main configuration menu.
 
-To see how much the latency optimizations were affecting the frame rate, I enabled the FPS counter in retroarch from the "notifications" menu. Bubble Bobble ran at a consistent 60 FPS without issue.
+To see how much the latency optimizations were affecting the frame rate, I enabled the FPS counter in retroarch from the `notifications` menu. Bubble Bobble ran at a consistent 60 FPS without issue.
 
 ### Game overrides
 
@@ -182,13 +182,13 @@ I chose the "Pixel-metadata" theme because its retro look is consistent with the
 
 By default, when a game is launched Retropie shows a text window with some information related to the RunCommand script. Pressing a button while the window is visible opens the RunCommand menu to configure the launch options for the game, for example the default emulator, which was useful to configure the MAME ROM for Paperboy.
 
-Special cases aside, the window looks quite ugly and is best removed, which can be done from he RunCommand  configuration entry in the Retropie menu in ES. There is also an option to display the game's "cover" as a splash screen, which I think is pretty neat.
+Special cases aside, the window looks quite ugly and is best removed, which can be done from the RunCommand  configuration entry in the Retropie menu in ES. There is also an option to display the game's "cover" as a splash screen, which I think is pretty neat.
 
 ## Adding a second controller
 
 The Picade has only one controller, but it's possible to add more by plugging one or more gamepads in the USB ports of the Raspberry Pi. Retropie supports most controllers, wired and wireless, out of the box. I used a PS4 Dualshock plugged via USB and it was recognised flawlessly. However by default the controller gets mapped to Player 1. To direct it to Player 2 I had to enter the Retroarch configuration, and under "controls" set the Player 1 controls to "none" and player 2 to "Gamepad". This is because the Picade's controls are mapped to the keyboard and not a gamepad.
 
-To be honest the Dualshock is a much better controller than the Picade's, and if this was about comfort I would use that. In retrospect, a raspberry with plugged-in USB controllers and an external display might be a better choice than the Picade, especially if one wants to play also 8-bit console games. This may become my next project/time&money sink.
+To be honest the Dualshock is a much better controller than the Picade's, and if this was about comfort I would use that. In retrospect, a Raspberry with plugged-in USB controllers and an external display might be a better choice than the Picade, especially if one wants to play also 8-bit console games. This may become my next project/time&money sink.
 
 ## Conclusions
 

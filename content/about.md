@@ -8,7 +8,7 @@ I am an Italian software engineer living in Finland.
 
 {{profile_pic(path="/images/face.jpg", alt="Selfie")}}
 
-Sometimes I think about stuff and I feel the urge to write it down. This helps me structure my thoughts and remember what I have done. To give myself the motivation to finish what I start writing, I created this website.
+Sometimes I think about stuff and I feel the urge to write it down. This helps me structure my thoughts and remember what I have done. To give myself the motivation to finish writing what I start, I created this website.
 
 ### Credits
 
