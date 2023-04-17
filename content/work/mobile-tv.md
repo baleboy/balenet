@@ -21,7 +21,11 @@ In Europe the service was launched in limited areas by major operators during ht
 
 ## What I did
 
-I was the project manager for the "Broadcast Account Manager" (BAM), the server in charge of managing channel subscriptions and distributing digital rights to users' phones. The development of the BAM was fully outsourced to Wipro in Hyderabad, where I traveled several times. In the beginning I was also acting as a systems architect and writing specifications and architecture documents, and in this role I attended several standardization meetings in the OMA Mobile Broadcast and DVD groups.
+I was the project manager for the "Broadcast Account Manager" (BAM), the server in charge of managing channel subscriptions and distributing digital rights to users' phones. The development of the BAM was fully outsourced to Wipro in Hyderabad, where I traveled several times. In the beginning I was also acting as a systems architect and writing specifications and architecture documents, and in this role I attended several standardization meetings in the OMA Mobile Broadcast and DVD groups, and authored or co-authored a few patent applications:
+
+https://patents.google.com/patent/US8448207B2/
+https://patents.justia.com/patent/8332327
+https://patents.google.com/patent/WO2008053322A2/
 
 ![Mobile TV network](/work/MBS.png)
 
