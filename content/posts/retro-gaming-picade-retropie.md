@@ -192,6 +192,10 @@ To be honest the Dualshock is a much better controller than the Picade's, and if
 
 ## Conclusions
 
+Here is the result in action!
+
+{{ youtube(id="fRmPMXSR0Sg") }}
+
 All in all I'm very happy with my Picade setup, but I have to admit that the experience is still not the same as playing the original arcade games. Also, after the initial novelty of playing those old arcade games without limits, I haven't touched the picade in months. 
 
 It is very easy to mess up the configuration while trying out different things, so it's a good idea to make a backup of the image and/or the configuration files. One advantage of running on Linux is that you can use all the usual Linux tools to manage your system. For example I installed git with apt and backed up my config files to Github: [https://github.com/baleboy/picade-configs](https://github.com/baleboy/picade-configs)
