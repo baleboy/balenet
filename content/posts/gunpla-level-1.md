@@ -1,5 +1,5 @@
 +++
-title = "Gunpla level progression: Level 1, Gundam RX-78-2 RG"
+title = "My Gunpla progression: Level 1, Gundam RX-78-2 RG"
 date = "2023-05-04"
 +++
 
