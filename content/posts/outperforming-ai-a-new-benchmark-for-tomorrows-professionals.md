@@ -1,5 +1,5 @@
 +++
-title = "Outperforming AI: A New Benchmark for Tomorrow's Professionals"
+title = "In the future, students should outperform AI to graduate"
 date = "2023-06-18"
 +++
 ![baleboy_a_human_and_a_robot_facing_each_other_both_taking_a_tes_d026755a-7244-4ea2-a4f7-1a668ccb298a-2.png](https://res.craft.do/user/full/58e85b69-1aa6-c3c8-74ac-daf2b8beae9a/doc/9164EA0F-DA39-4420-8CB3-B71FB0078616/3179112A-566D-400B-B371-02CC72B8EC60_2/td1WmR4kgdiACZGYB7TMyRyHwBCLbbORUNIPxYmtNuoz/baleboy_a_human_and_a_robot_facing_each_other_both_taking_a_tes_d026755a-7244-4ea2-a4f7-1a668ccb298a-2.png)
