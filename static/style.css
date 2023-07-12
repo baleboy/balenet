@@ -24,9 +24,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #004000;
-    padding: 10px;
-    color: #80ff80;
   }
   
   .title-wrapper {
@@ -74,12 +71,7 @@ body {
     text-decoration: underline;
     cursor: pointer;
   }
-  
-  nav {
-    background-color: #004000;
-    padding: 10px;
-  }
-  
+    
   nav ul {
     list-style: none;
     margin: 0;
@@ -91,11 +83,7 @@ body {
     margin-right: 20px;
   }
   
-  nav a {
-    color: #80ff80;
-  }
-  
-  nav a:hover {
+  a:hover {
     color: #ffa500;
   }
   
