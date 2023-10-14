@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="intro">
-    Hello, my name is Francesco, aka Bale, and this is my website.</p>
 <h2>Posts</h2>
 {% set blog_section = get_section(path="posts/_index.md") %}
 {% for year, posts in blog_section.pages | group_by(attribute="year") %}

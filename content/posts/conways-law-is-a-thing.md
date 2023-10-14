@@ -1,5 +1,5 @@
 +++
-title = "Conway's law is a thing"
+title = "How I learned Conway's law the hard way"
 date = "2023-04-18"
 +++
 
