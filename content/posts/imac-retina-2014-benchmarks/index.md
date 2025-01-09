@@ -1,11 +1,11 @@
-+++
-title = "Benchmarking a 2014 iMac Retina against Mac Mini M1/M2"
-date = "2023-02-13"
-+++
+---
+title:  Benchmarking a 2014 iMac Retina against Mac Mini M1/M2
+date:  2023-02-13
+---
 
 ## Introduction and results
 
-After [I updated our 2014 iMac to Big Sur](@/posts/update-imac-mojave-bigsur/index.md), I wanted to know if it was time to upgrade to a newer Mac, especially the Mac mini with Apple Silicon. I ran a few benchmarks and collected the results in the chart below. 
+After [I updated our 2014 iMac to Big Sur](/posts/update-imac-mojave-bigsur/), I wanted to know if it was time to upgrade to a newer Mac, especially the Mac mini with Apple Silicon. I ran a few benchmarks and collected the results in the chart below. 
 
 ![Chart](chart.png)
 

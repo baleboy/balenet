@@ -1,7 +1,7 @@
-+++
-title = "Updating a 2014 iMac Retina from Mojave to Bigsur"
-date = "2022-11-06"
-+++
+---
+title:  Updating a 2014 iMac Retina from Mojave to Bigsur
+date:  2022-11-06
+---
 
 After many failed attempts, I finally managed to update our 2014 27" iMac retina from Mojave to Big Sur. Finding the right information was not easy,  so I thought it would be good to write it down in case it ever happens again.
 
