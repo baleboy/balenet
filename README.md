@@ -1,5 +1,6 @@
 # balenet
-These are the Zola Sources for my website https://www.balenet.com
+There are the sources for my website, www.balenet.com. To generate the site,
+use the [balenet-gen](https://github.com/baleboy/balenet-gen) generator.
 
 # LICENSE
 
