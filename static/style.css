@@ -179,3 +179,12 @@ body {
     margin-top: 20px; 
     margin-bottom: 20px; 
   }
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+}
