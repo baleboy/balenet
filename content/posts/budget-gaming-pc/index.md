@@ -162,5 +162,7 @@ I also compared my build with a similar one with RX 6600 and RX 7600:
 
 For an extra 100 EUR I could have gotten the Radeon RX 6600 with twice the performance, which clearly would have been worth it. The 7600 starts to be a bit too expensive for the gain.
 
-In conclusion I think I met the requirements well enough and was able to buy a decent PC on the cheap. The Radeon RX 6400 will have to go at the first occasion, but for now I haven't heard any complaints.
+## One last thing: can it run VR?
+
+As a final test, I wanted to know if I could play tethered VR using an Oculus Quest 2 attached to the PC, even at the lowest level of graphics detail. Sadly the answer is no, the Oculus app requires 8Gb of video RAM and reported the card as incompatible. That RX 6600 is getting closer and closer...
 
