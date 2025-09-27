@@ -21,5 +21,5 @@ To build, go to VS Studio commands and pick "Monkey C build for device". Deployi
 
 See the final result in the video below. The source code is [here](https://github.com/baleboy/dinorun).
 
-[Dino Run demo](https://www.youtube.com/watch?v=NmuUoyqR5XU#embed)
+[Dino Run demo](https://www.youtube.com/watch?v=0uov3UpYojE#embed)
 

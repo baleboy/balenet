@@ -194,7 +194,7 @@ To be honest the Dualshock is a much better controller than the Picade's, and if
 
 Here is the result in action!
 
-[Picade video](https://www.youtube.com/watch?v=fRmPMXSR0Sg#embed)
+[Picade video](https://www.youtube.com/watch?v=aR743f-DuGk#embed)
 
 All in all I'm very happy with my Picade setup, but I have to admit that the experience is still not the same as playing the original arcade games. Also, after the initial novelty of playing those old arcade games without limits, I haven't touched the picade in months. 
 
