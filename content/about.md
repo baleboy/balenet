@@ -2,9 +2,7 @@
 
 ## About
 
-I am an Italian software engineer living in Finland.
-
-Sometimes I learn about stuff and I feel the urge to write it down. This helps me structure my thoughts and remember what I have learned. To give myself the motivation to finish writing what I started, I created this website.
+This blog is a random dump of things I learn or find interesting, mainly around programming, videogames, cooking (especially pizza) and family related stuff. I write for myself, but if you find anything interesting or helpful I'd love to know!
 
 ### Contact
 
